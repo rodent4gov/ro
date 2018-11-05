@@ -186,6 +186,51 @@ h6::selection	{
 	background-color:white;
 	}
 
+@media all and (max-width:650px)	{
+.fidd	{
+	float:clear;
+	text-align:center;
+	display:block;
+	clear:left;
+	margin:0 auto;
+	}
+	
+.fid	{
+	margin-top:5px;
+	float:none;
+	text-align:center;
+	display:block;
+	clear:right;
+	}
+	
+.fiddd	{
+	float:none;
+	text-align:center;
+	display:block;
+	clear:right;
+	}
+	
+#box	{
+	border: 5px dashed black;
+	width:100%;
+	height:100%;
+	color:black;
+	max-width:568px;
+	max-height:1000px;
+	margin: 0 auto;
+	}
+	
+#h	{
+	margin:0 auto;
+	display:block;
+	float:none;
+	position:relative;
+	text-align:center;
+	font-family:comic sans MS;
+	font-size:125px;
+	width:100%;
+	}
+}
 
 
 
