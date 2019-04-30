@@ -89,7 +89,7 @@ h6	{
 	font-family:comic sans MS;
 	}
 
-@media all and (max-width:700px) {
+@media screen and (max-width:700px) {
 #box	{
 	border: 5px dashed black;
 	width:100%;
@@ -105,7 +105,7 @@ h6	{
 	font-family:comic sans MS;
 	}
 	
-@media all and (min-width:700px)	{
+@media screen and (min-width:700px)	{
 #box	{
 	border: 5px dashed black;
 	width:100%;
@@ -144,7 +144,7 @@ h6	{
 	margin:0 auto;
 	}
 
-@media all and (max-width:700px)	{
+@media screen and (max-width:700px)	{
 .fidd	{
 	text-align:center;
 	float: clear;
@@ -157,7 +157,7 @@ h6	{
 	}
 }
 
-@media all and (min-width:700px)	{
+@media screen and (min-width:700px)	{
 .fidd	{
 	text-align:center;
 	float:clear;
@@ -167,6 +167,11 @@ h6	{
 
 .fidd img	{
 	display:block;
+	margin:0 auto;
+	}
+	
+.bab	{
+	max-width:1000px;
 	margin:0 auto;
 	}
 }
@@ -186,7 +191,7 @@ h6::selection	{
 	background-color:white;
 	}
 
-@media all and (max-width:650px)	{
+@media screen and (max-width:650px)	{
 .fidd	{
 	float:clear;
 	text-align:center;
@@ -261,21 +266,3 @@ h6::selection	{
 	transition: all 0.5s, background-color 0.5s;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
