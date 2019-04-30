@@ -1,6 +1,18 @@
+<?php
+if($_POST["message"]) {
+    mail("Realrodentoligarchyparty@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 <title>Rodent Oligarchy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -149,7 +161,7 @@ input::selection, textarea::selection	{
     	&nbsp &nbsp &nbsp
     	<a href="https://www.instagram.com/rodent_oligarchy_party/" target="_blank">Instagram</a>
     	&nbsp &nbsp &nbsp
-    	    	
+    	
     	
     	
     	
@@ -163,19 +175,19 @@ input::selection, textarea::selection	{
 <!-- The Modal (contains the Sign Up form) -->
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
-  <form class="modal-content" action="mailto:Realrodentoligarchyparty@gmail.com" method="POST">
+  <form class="modal-content" action="html_form_send.php" method="post">
     <div class="container">
       <h1>Contact</h1>
       <p>Please fill in this form to contact the Rodent Oligarchy</p>
       <hr>
-      <label for="name"><b>Name</b></label>
+	  <label for="name"><b>Name</b></label>
       <input type="textbox" placeholder="Name" name="name" required>
-
+      
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
 
       <label for="message"><b>Contact</b></label>
-      <textarea placeholder="Message"></textarea>
+      <textarea placeholder="Message" name="message"></textarea>
 <br>
 <br>
       <label>
@@ -223,13 +235,13 @@ Remember: Be kind. Be rational. Vote rodent.
   		<img src="squirrel.jpg" class="img"><p>Our Goal</p>
   	</div>
   	<div class="fidd">
-  		<img src="bar.png" class="img"><p>Statistics</p>
+  		<img src="bar.png" class="img"><p class="help">Statistics</p>
   	</div>
   	<div class="fiddd">
   		<img src="men.png" class="img"><p>Founders</p>
   	</div>
   	<div class="fidd">
-  		<img src="meerkatt.jpg" class="img"><p>More</p>
+  		<img src="meerkatt.jpg" class="img"><p class="help">More</p>
   	</div>
   </div>
 </section>
